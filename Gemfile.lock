@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/firmanm/solidus.git
-  revision: 3d7a11b7b2348ea17a6feca86438a47892a22f41
+  revision: 0a8288e94cc315df1cc806c41e847014e74ec708
   branch: v.2.4
   specs:
     solidus (2.4.1)
