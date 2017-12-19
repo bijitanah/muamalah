@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/Berlimioz/open_solidus_cloudinary.git
+  revision: 1bbd95a362140362319b9d1fab50b92712b2049b
+  specs:
+    open_solidus_cloudinary (0.0.5)
+      carrierwave (~> 0.11.2)
+      cloudinary (~> 1.1.7)
+      solidus_core (>= 1.3.0.rc1)
+
+GIT
   remote: https://github.com/firmanm/solidus.git
   revision: 0a8288e94cc315df1cc806c41e847014e74ec708
   branch: v.2.4
@@ -122,6 +131,7 @@ GEM
     awesome_nested_set (3.1.3)
       activerecord (>= 4.0.0, < 5.2)
     awesome_print (1.8.0)
+    aws_cf_signer (0.1.3)
     bcrypt (3.1.11)
     bindex (0.5.0)
     bitters (1.7.0)
@@ -151,7 +161,16 @@ GEM
       xpath (~> 2.0)
     carmen (1.0.2)
       activesupport (>= 3.0.0)
+    carrierwave (0.11.2)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
+      mimemagic (>= 0.3.0)
     climate_control (0.2.0)
+    cloudinary (1.1.7)
+      aws_cf_signer
+      rest-client
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
     coderay (1.1.2)
@@ -187,6 +206,8 @@ GEM
       devise (>= 2.1.0)
     diff-lcs (1.3)
     docile (1.1.5)
+    domain_name (0.5.20170404)
+      unf (>= 0.0.5, < 1.0.0)
     dotenv (2.2.1)
     dotenv-rails (2.2.1)
       dotenv (= 2.2.1)
@@ -219,6 +240,8 @@ GEM
       tilt (>= 1.2)
     hashdiff (0.3.7)
     honeybadger (3.2.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -271,6 +294,7 @@ GEM
     money (6.10.1)
       i18n (>= 0.6.4, < 1.0)
     multi_json (1.12.2)
+    netrc (0.11.0)
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
@@ -345,6 +369,10 @@ GEM
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rspec-core (3.7.0)
       rspec-support (~> 3.7.0)
     rspec-expectations (3.7.0)
@@ -433,6 +461,9 @@ GEM
       thread_safe (~> 0.1)
     uglifier (4.0.2)
       execjs (>= 0.3.0, < 3)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.4)
     uniform_notifier (1.10.0)
     versioncake (3.3.0)
       actionpack (>= 3.2)
@@ -474,6 +505,7 @@ DEPENDENCIES
   jquery-rails
   launchy
   listen
+  open_solidus_cloudinary!
   pg
   pry-byebug
   pry-rails
