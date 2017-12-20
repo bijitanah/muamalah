@@ -17,3 +17,21 @@ en:
 
   titles:
     application: Muamalah
+  hello: "Hello world"
+
+  spree:
+    admin:
+      tab:
+        slides: Slide
+        slide_locations: Slide Location
+        locales: Locale
+    district: District
+    courier: Courier
+    service_level: Service
+    etd: ETD
+    days: Days
+    profile: Profile
+    total_weight: Total Weight
+
+    i18n:
+        locales_displayed_on_frontend_select_box: Available Language
