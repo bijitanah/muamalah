@@ -12,11 +12,13 @@
   <title><%= title %></title>
   <%= stylesheet_link_tag :application, media: "all" %>
   <%= csrf_meta_tags %>
+  <%= scrivito_head_tags %>
 </head>
 <body class="<%= body_class %>">
   <%= render "flashes" -%>
   <%= yield %>
   <%= render "javascript" %>
   <%= render "css_overrides" %>
+  <%= scrivito_body_tags %>
 </body>
 </html>

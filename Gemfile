@@ -68,3 +68,8 @@ gem 'solidus_marketplace', github: 'firmanm/solidus_marketplace'
 gem 'open_solidus_cloudinary', github: 'Berlimioz/open_solidus_cloudinary'
 gem 'solidus_bootstrap_frontend', github: 'heritageid/solidus_bootstraps_frontend'
 gem 'solidus_i18n', github: 'firmanm/solidus_i18n', branch: 'master'
+
+gem 'scrivito'
+gem 'deface'
+gem 'underscore-rails'
+gem 'coffee-rails'
