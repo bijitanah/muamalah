@@ -60,7 +60,11 @@ group :production do
   gem "rack-timeout"
 end
 
-
 gem 'solidus', github: 'firmanm/solidus', branch: 'v.2.4'
 gem 'solidus_auth_devise'
 gem 'solidus_marketplace', github: 'firmanm/solidus_marketplace'
+
+#solidus extensions
+gem 'open_solidus_cloudinary', github: 'Berlimioz/open_solidus_cloudinary'
+gem 'solidus_bootstrap_frontend', github: 'heritageid/solidus_bootstraps_frontend'
+gem 'solidus_i18n', github: 'firmanm/solidus_i18n', branch: 'master'
